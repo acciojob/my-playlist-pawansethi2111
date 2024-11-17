@@ -1,13 +1,81 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		h1,h2,h3
+		{
+			text-align:center;
+		}
+		li{
+			list-style-type:none;
+			text-decoration:none
+		}
+		a{
+			text-decoration-line:none;
+		}
+		body{
+			background-color: rgb(204,204,204)
+		}
+		.player_one {
+			background-color: rgb(255, 255, 255); 
+			padding:5px; 
+			border-radius: 5px;
+			width:80%;
+			align-items:center;
+			border: 1px solid black;
+			justify-content:center;
+			text-align:center;
+		}
+		.player-two{
+			background-color: rgb(255, 255, 255); 
+			padding:5px; 
+			border-radius: 5px;
+		}
+		ul{
+			padding:10px;
+			border:2px solid black;
+			border-radius:10px;
+			background-color:white;
+		}
+		audio{
+			justify-content:center;
+			align-items: center;
+			text-align:center;
+			width:100%;
+		}
+		video{
+			width:100%;
+		}
+	</style>
 </head>
 
+
+	
 <body>
 	<!-- the entire body must be written by student -->
+	<h1>My Playlist</h1>	
+	<ul>
+		<li><a href= "" target = "_blank">Song 1</a></li>
+		<li><a href= "" target = "_blank">Song 2</a></li>
+		<li><a href= "" target = "_blank">Song 3</a></li>
+		<li><a href= "" target = "_blank">Song 4</a></li>
+		<li><a href= "" target = "_blank">Song 5</a></li>
+	</ul>
+	<h2>Now Playing...</h2>
+	<div class = "player_one"class = "player_one">
+	<video controls >
+		<source src = "https://www.w3schools.com/tags/movie.mp4">		
+	</video>
+
+	<h2>MP3 songs</h2>
+		<p>Maan Meri Jaan</p>
+	<audio controls class = "player_two">
+		<source src = "https://www.pagalworld.com.se/files/download/id/64630" type = "audio/mpeg">
+		
+	</audio>
+	
+	</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
